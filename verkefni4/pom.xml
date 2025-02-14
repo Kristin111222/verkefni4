@@ -25,4 +25,18 @@
     <maven.compiler.release>21</maven.compiler.release>
   </properties>
 
+  <build>
+  <plugins>
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>exec-maven-plugin</artifactId>
+      <version>3.5.0</version>
+      <configuration>
+        <mainClass>is.hi.ksr11.hbv202g.ass4.AppEntry</mainClass>
+        </configuration>
+        </plugin>
+        </plugins>
+        </build>
+
+
 </project>
